@@ -59,6 +59,7 @@
 
 li{
     margin: 25px;
+    background: none;
 }
 
 .navegacao a {
@@ -71,8 +72,8 @@ li{
     background: none;
 }
 
-.navegacao .nav a:visited {
-    background: none;
+a:visited {
+    background: green;
 }
 
 .row .col-md-6 a{
