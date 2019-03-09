@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>Site Inicial</title>
+    <meta charset="utf-8">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scrollLink").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 800);
+            });
+        });
+    </script>
+
+    <script>
+        window.jQuery || document.write('<script src="http://mysite.com/jquery.min.js"><\/script>')
+    </script>
+</head>
+
+<body>
+    <div class="row">
+        <div id="left-side" class="fixacao">
+            <header>
+                <div class="header">
+                    <!--header static-->
+                    <H1>HummingBird</H1>
+                </div>
+            </header>
+
+            <section>
+                <div class="navegacao">
+                    <!--static body-->
+                    <ul class="nav">
+                        <li><a class="scrollLink" href="#about">Sobre</a></li>
+                        <li><a class="scrollLink" href="#portifolio">Portifolio</a></li>
+                        <li><a class="scrollLink" href="#services">Serviços</a></li>
+                        <li><a class="scrollLink" href="#contacts">Contatos</a></li>
+                        <li><a class="scrollLink" href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer>
+                <div class="row">
+                    <div class="col-sm-12 al">
+                        <a class="item-rede-social" href=""><img src="img/facebook.png"></a>
+                        <a class="item-rede-social" href=""><img src="img/twitter.png"></a>
+                        <a class="item-rede-social" href=""><img src="img/instagram.png"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div id="righ-side" class="col-sm-6 direita">
+            <div class="sub-direita">
+                <section id="about">
+                    <div class="box">
+                        <div class="secao justify-content-center">
+                            <h2>- Sobre -</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet mauris eu ex auctor
+                            placerat. Pellentesque id neque erat. Nunc aliquet elit ut dui tristique, vulputate
+                            dignissim massa bibendum. Donec vel convallis velit, at maximus ligula. Sed diam justo,
+                            egestas vel eros id, tempor facilisis nibh. Maecenas faucibus egestas ex, a aliquam magna
+                            feugiat sed. Maecenas consequat pulvinar congue. Praesent scelerisque erat quis luctus
+                            consectetur. </p>
+                    </div>
+                </section>
+
+                <section id="portifolio">
+                    <div class="box">
+                        <div class="secao justify-content-center">
+                            <h2>- Portifolio -</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet mauris eu ex auctor
+                            placerat. Pellentesque id neque erat. Nunc aliquet elit ut dui tristique, vulputate
+                            dignissim massa bibendum. Donec vel convallis velit, at maximus ligula. Sed diam justo,
+                            egestas vel eros id, tempor facilisis nibh. Maecenas faucibus egestas ex, a aliquam magna
+                            feugiat sed. Maecenas consequat pulvinar congue. Praesent scelerisque erat quis luctus
+                            consectetur. </p>
+                    </div>
+                </section>
+
+                <section id="services">
+                    <div class="box">
+                        <div class="secao justify-content-center">
+                            <h2>- Serviços -</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet mauris eu ex auctor
+                            placerat. Pellentesque id neque erat. Nunc aliquet elit ut dui tristique, vulputate
+                            dignissim massa bibendum. Donec vel convallis velit, at maximus ligula. Sed diam justo,
+                            egestas vel eros id, tempor facilisis nibh. Maecenas faucibus egestas ex, a aliquam magna
+                            feugiat sed. Maecenas consequat pulvinar congue. Praesent scelerisque erat quis luctus
+                            consectetur. </p>
+                    </div>
+                </section>
+
+                <section id="contacts">
+                    <div class="box">
+                        <div class="secao justify-content-center">
+                            <h2>- Contatos -</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet mauris eu ex auctor
+                            placerat. Pellentesque id neque erat. Nunc aliquet elit ut dui tristique, vulputate
+                            dignissim massa bibendum. Donec vel convallis velit, at maximus ligula. Sed diam justo,
+                            egestas vel eros id, tempor facilisis nibh. Maecenas faucibus egestas ex, a aliquam magna
+                            feugiat sed. Maecenas consequat pulvinar congue. Praesent scelerisque erat quis luctus
+                            consectetur. </p>
+                    </div>
+                </section>
+
+                <section id="blog">
+                    <div class="box">
+                        <div class="secao justify-content-center">
+                            <h2>- Blog -</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet mauris eu ex auctor
+                            placerat. Pellentesque id neque erat. Nunc aliquet elit ut dui tristique, vulputate
+                            dignissim massa bibendum. Donec vel convallis velit, at maximus ligula. Sed diam justo,
+                            egestas vel eros id, tempor facilisis nibh. Maecenas faucibus egestas ex, a aliquam magna
+                            feugiat sed. Maecenas consequat pulvinar congue. Praesent scelerisque erat quis luctus
+                            consectetur. </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

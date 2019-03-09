@@ -1,0 +1,121 @@
+.fixacao{
+    position: fixed;
+    background-image:url("../img/galaxy-leftSide.jpeg");
+    background-size: cover;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-position: 15%;
+    margin-right: none;
+    z-index: 9999;
+}
+
+.direita{
+    float: right;
+    margin: 0px 0px;
+    width: 50%;
+}
+
+.sub-direita{
+    margin: 30px 15px 30px 15px;
+    background: #333;
+    padding: 30px 40px 40px 30px;
+}
+
+.box{
+    background: rgba(250, 250, 250,0.3);
+    padding: 0px 0px 20px 0px;
+    margin: 25px 0px 25px 0px;
+}
+
+.secao{
+    background: #1a1fbc;
+    color: #fff ;
+    padding: 0px 15px 0px 15px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    position: relative;
+}
+
+.header{
+    padding: 0px 0px 5px 0px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.header h1{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.navegacao{
+    font-size: 25px;
+}
+
+li{
+    margin: 25px;
+}
+
+.navegacao a {
+    color: white;
+    font-weight: bold
+}
+
+.navegacao .nav a:hover {
+    color: black;
+    background: none;
+}
+
+.navegacao .nav a:visited {
+    background: none;
+}
+
+.row .col-md-6 a{
+    margin: 20px;
+}
+
+.item-rede-social{
+    margin: 0px 25px 0px 25px;
+}
+
+.al{
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.header h1{
+    background: rgba(118, 4, 105, 0.6);
+    padding: 1px 6px 1px 6px;
+    border-radius: 5px;
+}
+
+body{
+    background: black;
+}
+
+p{
+    margin: 20px;
+}
+
+.box .secao h2{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 980px){
+    .fixacao{
+        display: none;
+    }
+
+    .direita{
+        float: none;
+        width: 100%;
+    }
+}
